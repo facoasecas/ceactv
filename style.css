@@ -10,6 +10,10 @@
     font-weight: 400;
 }
 
+::-webkit-scrollbar { width: 1vh; }
+
+::-webkit-scrollbar-thumb { background-color: #c4c8cc; }
+
 body{
     border-bottom:1vh solid #222;
 }
