@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="msapplication-TileColor" content="#DDDDDD" />
+        <meta name="theme-color" content="#DDDDDD" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <meta name="robots" content="none" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" />
+        <title>CeacTV - Propuesta</title>
+    </head>
+    <body class="bg-light">
+        <header class="container py-5">
+            <div class="row mx-3 d-flex">
+                <div class="col-lg-6">
+                    <div class="d-flex">
+                        <div class="float-left align-self-end pe-4">
+                            <h1 class="my-0 py-0"><span>C</span><span>e</span><span>a</span><span>c</span>tv</h1>
+                        </div>
+                        <div class="float-left align-self-end">
+                            <h2>
+                                <span class="visually-hidden">Canal del </span>Centro de extensión<br />
+                                artística y cultural
+                            </h2>
+                            <h3><span class="visually-hidden">de la </span>Universidad de Chile</h3>
+                        </div>
+                    </div>
+                </div>
+                <nav class="nav col-lg-6 justify-content-between pt-5">
+                    <a class="nav-link active" aria-current="page" href="#">Transmisión en vivo</a>
+                    <a class="nav-link" href="#">Programación</a>
+                    <a class="nav-link" href="#">¡Aporta a la cultura!</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container">
+            <div class="row mx-3 g-0 shadow-sm">
+                <div class="col-xl-7 bg-dark" id="cine">
+                    <div class="my-auto ratio ratio-16x9 bg-dark"></div>
+                </div>
+                <div class="col-xl-5 bg-white">
+                    <div class="p-3">
+                        <h4 class="text-center fs-5 mb-4 mt-2">Programación semanal destacada</h4>
+
+                        <ul class="nav nav-tabs small justify-content-center" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="lunes-tab" data-bs-toggle="tab" href="#lunes" role="tab" aria-controls="lunes" aria-selected="true">LU</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="martes-tab" data-bs-toggle="tab" href="#martes" role="tab" aria-controls="martes" aria-selected="false">MA</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="miercoles-tab" data-bs-toggle="tab" href="#miercoles" role="tab" aria-controls="miercoles" aria-selected="false">MIE</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="jueves-tab" data-bs-toggle="tab" href="#jueves" role="tab" aria-controls="jueves" aria-selected="false">JUE</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="viernes-tab" data-bs-toggle="tab" href="#viernes" role="tab" aria-controls="viernes" aria-selected="false">VIE</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="sabado-tab" data-bs-toggle="tab" href="#sabado" role="tab" aria-controls="sabado" aria-selected="false">SA</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="domingo-tab" data-bs-toggle="tab" href="#domingo" role="tab" aria-controls="domingo" aria-selected="false">DO</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade px-2 py-1" id="lunes" role="tabpanel" aria-labelledby="lunes-tab"><!--js--></div>
+                            <div class="tab-pane fade px-2 py-1" id="martes" role="tabpanel" aria-labelledby="martes-tab"><!--js--></div>
+                            <div class="tab-pane fade px-2 py-1" id="miercoles" role="tabpanel" aria-labelledby="miercoles-tab"><!--js--></div>
+                            <div class="tab-pane fade px-2 py-1" id="jueves" role="tabpanel" aria-labelledby="jueves-tab"><!--js--></div>
+                            <div class="tab-pane fade px-2 py-1" id="viernes" role="tabpanel" aria-labelledby="viernes-tab"><!--js--></div>
+                            <div class="tab-pane fade px-2 py-1" id="sabado" role="tabpanel" aria-labelledby="sabado-tab"><!--js--></div>
+                            <div class="tab-pane fade px-2 py-1" id="domingo" role="tabpanel" aria-labelledby="domingo-tab"><!--js--></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <aside class="container">
+            <div class="row px-3 py-5 g-4">
+                <div class="col-12">
+                    <h3 class="text-center fs-2 mb-3 initialism"><small>enero</small> 2021</h3>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://ceactv.cl/wp-content/uploads/2021/01/Prog-General-20-de-enero-3.jpg" alt="afiche programa enero 20 a 24" class="img-fluid shadow" />
+                </div>
+                <div class="col-md-4">
+                    <img src="https://ceactv.cl/wp-content/uploads/2021/01/Beth-para-Todos-2.jpg" alt="afiche beethoven para todos" class="img-fluid shadow" />
+                </div>
+                <div class="col-md-4">
+                    <img src="https://ceactv.cl/wp-content/uploads/2021/01/In-Cres-20-Enero-2.jpg" alt="afiche ensable de percusión orquesta sinfónica nacional de Chile" class="img-fluid shadow" />
+                </div>
+            </div>
+        </aside>
+
+        <button id="mas" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span>&bull;</span><span>&bull;</span><span>&bull;</span><span>&bull;</span>
+        </button>
+
+        <div class="collapse fixed-top" id="navbarToggleExternalContent">
+            <div class="bg-light shadow p-4">
+                <div class="container">
+                    <a href="https://sinfonicanacional.cl/" class="rounded-circle bg-dark float-left text-center me-4" style="height: 7rem; width: 7rem; display: inline-block;">
+                        Orquesta<br />
+                        Sinfónica<br />
+                        Nacional<br />
+                        de Chile
+                    </a>
+                    <a href="https://sinfonicanacional.cl/" class="rounded-circle bg-dark float-left text-center me-4" style="height: 7rem; width: 7rem; display: inline-block;">
+                        Ballet<br />
+                        Nacional<br />
+                        Chileno<br />
+                        <span class="initialism">banch</span>
+                    </a>
+                    <a href="https://www.corocamerata.cl/" class="rounded-circle bg-dark float-left text-center me-4" style="height: 7rem; width: 7rem; display: inline-block;">
+                        Coro<br />
+                        Sinfónico<br />
+                        Universidad<br />
+                        de Chile
+                    </a>
+
+                    <a href="https://www.corocamerata.cl/" class="rounded-circle bg-dark float-left text-center me-4" style="height: 7rem; width: 7rem; display: inline-block;">
+                        Camerata<br />
+                        Vocal<br />
+                        Universidad<br />
+                        de Chile
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+        <script>
+            document.getElementById("lunes").innerHTML +=
+                '<div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Documental <small>— 10.00 & 17.00 hrs.</small></dt><dd><a href="#">Maria Callas en la cocina</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Allegro ma non troppo <small>— 12.00 & 18.30 hrs.</small></dt><dd><a href="#">Johannes Brahms</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Cine de antaño <small>— 13.00 & 21.00 hrs.</small></dt><dd><a href="#">Metrópolis</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Obras excepcionales <small>— 15.00 & 23.00 hrs.</small></dt><dd><a href="#">Bernstein rinde homenaje a Stravinsky</a></dd></dl></div></div>';
+
+            document.getElementById("martes").innerHTML +=
+                '<div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Documental <small>— 10.00 & 17.00 hrs.</small></dt><dd><a href="#">Maria Callas en la cocina</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Allegro ma non troppo <small>— 12.00 & 18.30 hrs.</small></dt><dd><a href="#">Johannes Brahms</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Cine de antaño <small>— 13.00 & 21.00 hrs.</small></dt><dd><a href="#">Metrópolis</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Obras excepcionales <small>— 15.00 & 23.00 hrs.</small></dt><dd><a href="#">Bernstein rinde homenaje a Stravinsky</a></dd></dl></div></div>';
+
+            document.getElementById("miercoles").innerHTML +=
+                '<div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Documental <small>— 10.00 & 17.00 hrs.</small></dt><dd><a href="#">Maria Callas en la cocina</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Allegro ma non troppo <small>— 12.00 & 18.30 hrs.</small></dt><dd><a href="#">Johannes Brahms</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Cine de antaño <small>— 13.00 & 21.00 hrs.</small></dt><dd><a href="#">Metrópolis</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Obras excepcionales <small>— 15.00 & 23.00 hrs.</small></dt><dd><a href="#">Bernstein rinde homenaje a Stravinsky</a></dd></dl></div></div>';
+
+            document.getElementById("jueves").innerHTML +=
+                '<div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Documental <small>— 10.00 & 17.00 hrs.</small></dt><dd><a href="#">Maria Callas en la cocina</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Allegro ma non troppo <small>— 12.00 & 18.30 hrs.</small></dt><dd><a href="#">Johannes Brahms</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Cine de antaño <small>— 13.00 & 21.00 hrs.</small></dt><dd><a href="#">Metrópolis</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Obras excepcionales <small>— 15.00 & 23.00 hrs.</small></dt><dd><a href="#">Bernstein rinde homenaje a Stravinsky</a></dd></dl></div></div>';
+
+            document.getElementById("viernes").innerHTML +=
+                '<div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Documental <small>— 10.00 & 17.00 hrs.</small></dt><dd><a href="#">Maria Callas en la cocina</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Allegro ma non troppo <small>— 12.00 & 18.30 hrs.</small></dt><dd><a href="#">Johannes Brahms</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Cine de antaño <small>— 13.00 & 21.00 hrs.</small></dt><dd><a href="#">Metrópolis</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Obras excepcionales <small>— 15.00 & 23.00 hrs.</small></dt><dd><a href="#">Bernstein rinde homenaje a Stravinsky</a></dd></dl></div></div>';
+
+            document.getElementById("sabado").innerHTML +=
+                '<div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Documental <small>— 10.00 & 17.00 hrs.</small></dt><dd><a href="#">Maria Callas en la cocina</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Allegro ma non troppo <small>— 12.00 & 18.30 hrs.</small></dt><dd><a href="#">Johannes Brahms</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Cine de antaño <small>— 13.00 & 21.00 hrs.</small></dt><dd><a href="#">Metrópolis</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Obras excepcionales <small>— 15.00 & 23.00 hrs.</small></dt><dd><a href="#">Bernstein rinde homenaje a Stravinsky</a></dd></dl></div></div>';
+
+            document.getElementById("domingo").innerHTML +=
+                '<div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Documental <small>— 10.00 & 17.00 hrs.</small></dt><dd><a href="#">Maria Callas en la cocina</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Allegro ma non troppo <small>— 12.00 & 18.30 hrs.</small></dt><dd><a href="#">Johannes Brahms</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Cine de antaño <small>— 13.00 & 21.00 hrs.</small></dt><dd><a href="#">Metrópolis</a></dd></dl></div></div><div class="card my-1 shadow-sm"><div class="card-body"><dl><dt>Obras excepcionales <small>— 15.00 & 23.00 hrs.</small></dt><dd><a href="#">Bernstein rinde homenaje a Stravinsky</a></dd></dl></div></div>';
+
+            var dia = new Date();
+            var n = dia.getDay();
+
+            if (n === 0) {
+                var tab = document.getElementById("domingo-tab");
+                var panel = document.getElementById("domingo");
+                tab.classList.add("active");
+                panel.classList.add("show");
+                panel.classList.add("active");
+            } else if (n === 1) {
+                var tab = document.getElementById("lunes-tab");
+                var panel = document.getElementById("lunes");
+                tab.classList.add("active");
+                panel.classList.add("show");
+                panel.classList.add("active");
+            } else if (n === 2) {
+                var tab = document.getElementById("martes-tab");
+                var panel = document.getElementById("martes");
+                tab.classList.add("active");
+                panel.classList.add("show");
+                panel.classList.add("active");
+            } else if (n === 3) {
+                var tab = document.getElementById("miercoles-tab");
+                var panel = document.getElementById("miercoles");
+                tab.classList.add("active");
+                panel.classList.add("show");
+                panel.classList.add("active");
+            }
+        </script>
+    </body>
+</html>
