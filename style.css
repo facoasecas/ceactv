@@ -10,6 +10,10 @@
     font-weight: 400;
 }
 
+:hover{
+transition: all ease 0.5s;
+}
+
 ::-webkit-scrollbar { width: 1vh; }
 
 ::-webkit-scrollbar-thumb { background-color: #ddd; }
@@ -62,6 +66,10 @@ h3 {
     letter-spacing: 0.025rem;
     margin-left: 0.025rem;
     font-weight: 700;
+}
+
+h3 small{
+    font-size:1.6rem;
 }
 
 h4 {
@@ -131,9 +139,10 @@ nav{
 }
 
 button#mas{
-    position: absolute;
-    right:1rem;
-    top:1rem;
+    position: fixed;
+    right:1vw;
+    top:1vh;
+    width:1rem;
     z-index: 9999999999;
     line-height: 1rem;
 }
@@ -158,4 +167,23 @@ button#mas span:nth-child(3) {
 button#mas span:nth-child(4) {
     color: var(--rojo);
     font-size:3rem;
+}
+
+#navbarToggleExternalContent a{
+    font-size:0.9rem;
+    line-height: 1.1;
+    color:rgba(255,255,255,0.75);
+    text-decoration: none;
+}
+
+#navbarToggleExternalContent a:hover{
+    color:rgba(255,255,255,1);
+}
+
+#navbarToggleExternalContent a span.initialism{
+    font-weight: 800;
+}
+
+#navbarToggleExternalContent svg{
+    stroke-width:1;
 }
