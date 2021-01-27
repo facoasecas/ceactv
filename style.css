@@ -141,10 +141,10 @@ nav{
 button#mas{
     position: fixed;
     right:1vw;
-    top:1vh;
+    top:2vh;
     width:1rem;
     z-index: 9999999999;
-    line-height: 1rem;
+    line-height: 0.8rem;
 }
 
 button#mas:focus, button#mas:active{
