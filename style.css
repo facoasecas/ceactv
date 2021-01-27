@@ -12,7 +12,7 @@
 
 ::-webkit-scrollbar { width: 1vh; }
 
-::-webkit-scrollbar-thumb { background-color: #c4c8cc; }
+::-webkit-scrollbar-thumb { background-color: #ddd; }
 
 body{
     border-bottom:1vh solid #222;
