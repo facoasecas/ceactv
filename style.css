@@ -18,10 +18,6 @@ transition: all ease 0.5s;
 
 ::-webkit-scrollbar-thumb { background-color: #ddd; }
 
-body{
-    border-bottom:1vh solid #222;
-}
-
 h1,
 h2,
 h3,
