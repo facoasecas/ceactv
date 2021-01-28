@@ -139,8 +139,10 @@ button#mas{
     right:1vw;
     top:1vh;
     width:1rem;
+    padding:0;
+    margin:0;
     z-index: 9999999999;
-    line-height: 0.8rem;
+    line-height: 0.7rem;
 }
 
 button#mas:focus, button#mas:active{
